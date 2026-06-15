@@ -1,1 +1,1 @@
-# Govt.-ITI-Deoni-
+# Govt.ITI-Deoni
