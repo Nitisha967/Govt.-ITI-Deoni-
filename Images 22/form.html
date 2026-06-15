@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+        }
+
+        .form-container {
+            width: 400px;
+            margin: 100px auto;
+            background: white;
+            padding: 45px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #28a745;
+            color: sky blue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="form-container">
+    <h2>Admission Form</h2>
+
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Mobile Number" required>
+
+        <input type="date" required>
+
+        <select required>
+            <option value="">Select Trade</option>
+            <option>Electrician</option>
+            <option>Fitter</option>
+            <option>COPA</option>
+            <option>Dress Making</option>
+            <option>Painter</option>
+
+        </select>
+
+        <input type="text" placeholder="Address" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
